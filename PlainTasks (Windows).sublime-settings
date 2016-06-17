@@ -3,7 +3,7 @@
   "done_tasks_bullet": "✔", // options: + | ✓ | ✔ | √ | [x]
   "cancelled_tasks_bullet": "✘", // options: x | ✘ | [-]
   "before_tasks_bullet_margin": 1,
-  "date_format": "(%y-%m-%d %H:%M)",
+  "date_format": "#%d.%m.%Y %H.%M",
   "done_tag": true, // related to @cancelled as well
   "project_tag": true, // if true - postfix archived task with project tag, if false - prefix
   "archive_name": "Archive:", // make sure it is the unique project name within your todo files
@@ -11,7 +11,7 @@
 
   "bar_empty": "☐", // empty cell for progress-bar in status-bar, for more details see Custom Statistics in README
 
-  "color_scheme": "Packages/PlainTasks/tasks.hidden-tmTheme",
+  "color_scheme": "Packages/PlainTasks/tasks-gray.hidden-tmTheme",
     // other bundled schemes:
     //   Packages/PlainTasks/tasks-dark.hidden-tmTheme
     //   Packages/PlainTasks/tasks-eighties-colored.hidden-tmTheme
@@ -34,6 +34,10 @@
   "fade_fold_buttons": false,
   "extensions":
   [
+    ".do",
+    ".do_archive",
+    ".marathon",
+    ".marathon_archive",
     "TODO",
     "todo",
     "todolist",

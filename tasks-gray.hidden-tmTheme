@@ -159,7 +159,7 @@
 				<key>foreground</key>
 				<string>#bc644a</string>
 				<key>background</key>
-				<string>#00000010</string>
+				<string>#e6e6e6</string>
 				<key>fontStyle</key>
 				<string>bold underline</string>
 			</dict>
