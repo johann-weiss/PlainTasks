@@ -34,16 +34,10 @@
   "fade_fold_buttons": false,
   "extensions":
   [
-    ".do",
-    ".do_archive",
-    ".map",
-    ".map_archive",
-    ".marathon",
-    ".marathon_archive",
-    "TODO",
-    "todo",
-    "todolist",
-    "taskpaper",
-    "tasks"
+    "do",           ".do",        ".do_archive",
+    "map",          ".map",       ".map_archive",
+    "marathon",     ".marathon",    ".marathon_archive",
+
+    "TODO", "todo",  "todolist", "taskpaper", "tasks"
   ]
 }
