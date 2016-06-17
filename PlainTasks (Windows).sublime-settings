@@ -36,6 +36,8 @@
   [
     ".do",
     ".do_archive",
+    ".map",
+    ".map_archive",
     ".marathon",
     ".marathon_archive",
     "TODO",
